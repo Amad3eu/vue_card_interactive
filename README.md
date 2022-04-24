@@ -1,5 +1,4 @@
-# vue_card_interactive
-Vue+Scss Credit Card
+# Vue+Scss Credit Card
 
 #### Steps:
 
