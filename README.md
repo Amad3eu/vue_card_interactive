@@ -1,30 +1,36 @@
-# Vue+Scss Credit Card
+# vue-interactive-paycard (npm package (for react & react-native too) is coming soon)
 
-#### Steps:
+A fantastic credit card form with smooth and sweet micro-interactions. Includes number formatting, validation and automatic card type detection. Built with vuejs and also fully responsive.
 
+See Live: https://codepen.io/JavaScriptJunkie/pen/YzzNGeR
+
+![](demo.gif)
+
+
+## Project setup
 ```
-npm install       
-```              
-
+npm install
 ```
-npm run serve       
-```   
 
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
 ```
 npm run build
-
 ```
 
+### Run your unit tests
 ```
 npm run test:unit
 ```
-## Previewing Locally
 
-The **dist** directory is meant to be served by an HTTP server (unless you've configured publicPath to be a relative value), so it will not work if you open dist/index.html directly over file:// protocol. The easiest way to preview your production build locally is using a Node.js static file server, for example serve:
-
-```node
-npm install -g serve
-// -s flag means serve it in Single-Page Application mode
-// which deals with the routing problem below 
-serve -s dist
+### Lints and fixes files
 ```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
